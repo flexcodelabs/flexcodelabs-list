@@ -40,4 +40,4 @@ import List from '@flexcodelabs/list'
 
 | Name  | Type                       | Default | Required | Description  |
 | ----- | -------------------------- | ------- | -------- | ------------ |
-| items | `(string or itemObject)[]` | `None`  | false    | Descriptions |
+| items | `(string or itemObject)[]` | `None`  | false    | ItemObject has item and child|
