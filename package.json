@@ -1,5 +1,5 @@
 {
-  "name": "@flexlabs/list",
+  "name": "@flexcodelabs/list",
   "version": "0.1.0",
   "description": "",
   "main": "./lib/cjs/index.js",
