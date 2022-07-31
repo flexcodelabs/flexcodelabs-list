@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import List from '@flexlabs/list'
+import List from '@flexcodelabs/list'
 
 ReactDOM.render(
   <React.StrictMode>

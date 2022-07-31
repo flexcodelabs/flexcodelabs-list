@@ -27,8 +27,7 @@ or
 
 ```jsx
 import List from '@flexcodelabs/list'
-
-<List items={[]} />
+;<List items={[]} />
 ```
 
 ## Examples
@@ -38,6 +37,6 @@ import List from '@flexcodelabs/list'
 
 ## Props
 
-| Name  | Type                       | Default | Required | Description  |
-| ----- | -------------------------- | ------- | -------- | ------------ |
-| items | `(string or itemObject)[]` | `None`  | false    | ItemObject has item and child|
+| Name  | Type                       | Default | Required | Description                                                                        |
+| ----- | -------------------------- | ------- | -------- | ---------------------------------------------------------------------------------- |
+| items | `(string or itemObject)[]` | `None`  | false    | ItemObject expects two properties: item of type string and child of type ReactNode |
