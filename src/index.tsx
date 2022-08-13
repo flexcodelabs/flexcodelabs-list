@@ -2,6 +2,7 @@ import React, { FC, ReactNode } from 'react'
 
 interface ListProps {
   items: (string | itemObject)[]
+  className?: string
 }
 
 interface itemObject {
@@ -9,9 +10,9 @@ interface itemObject {
   child: ReactNode
 }
 
-const List: FC<ListProps> = ({ items }) => {
+const List: FC<ListProps> = ({ items, className }) => {
   return (
-    <ul style={{ listStyle: 'none' }}>
+    <ul className={className}>
       {items.map((item, index) => {
         if (typeof item === 'object') {
           if (index === 0) {
